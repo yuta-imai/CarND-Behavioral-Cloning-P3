@@ -122,4 +122,6 @@ For epoch of training, I started from 2, but it seemed it is enough by running a
 
 ### Conclusion
 
-As you can find in `video.mp4` and `video_20mph.mp4`, the model is well trained for the course 1 and it well drive the vehicle.
+To run the vehicle in the simulator, I also modified `drive.py, line:66` because Nividia's model expecte the input in shape of 200x66x3.
+
+Finally, as you can find in `video.mp4` and `video_20mph.mp4`, the model is well trained for the course 1 and it well drive the vehicle.
